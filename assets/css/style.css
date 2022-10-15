@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo img {
   padding: 0;
-  max-height: 26px;
+  max-height: 55px;
 }
 
 /*--------------------------------------------------------------
@@ -532,6 +532,7 @@ section {
   font-size: 24px;
 }
 
+
 /* Services Section
 --------------------------------*/
 #services {
@@ -545,7 +546,7 @@ section {
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.2);
   transition: all 0.3s ease-in-out;
 }
 #services .box:hover {
@@ -646,6 +647,62 @@ section {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #cce5ff;
+}
+
+/* Services Section
+--------------------------------*/
+#team {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#team .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+#team .box:hover {
+  transform: translateY(-5px);
+}
+#team .icon {
+  position: absolute;
+  left: -15px;
+  top: calc(50% - 32px);
+}
+#team .icon i {
+  font-size: 64px;
+  line-height: 0;
+  transition: 0.5s;
+}
+#team .title {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+#servteamices .title a {
+  color: #111;
+}
+#team .box:hover .title a {
+  color: #007bff;
+}
+#team .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.teamImg{
+  width: 369px;
+  height: 400px;
+}
+.teamTitle{
+  margin-left: 90px !important;
+  font-size: 25px !important;
 }
 
 /* Portfolio Section
@@ -1247,4 +1304,10 @@ section {
 }
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+.logoImg{
+  width: 188px;
+  height: 83px;
+  margin-left: -39px;
+  margin-top: -49px;
 }
